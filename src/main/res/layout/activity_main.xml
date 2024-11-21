@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/backgroundBlue"
+    tools:context=".MainActivity">
+
+    <!-- Username Text -->
+    <TextView
+        android:id="@+id/txt_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textColor="@color/blueAccent"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold" />
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Clear Button -->
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textStyle="bold" />
+</LinearLayout>

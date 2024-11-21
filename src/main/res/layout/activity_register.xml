@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/backgroundBlue"
+    tools:context=".RegisterActivity">
+
+    <!-- Username Input -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_username"
+        android:hint="Username"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/textColor" />
+
+    <!-- Password Input -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/textColor" />
+
+    <!-- Confirm Password Input -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_password_confirm"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/textColor" />
+
+    <!-- Register Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_register"
+        android:text="Register"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <!-- Login Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:id="@+id/txt_login"
+        android:text="Sudah punya akun? Login disini"
+        android:textColor="@color/blueAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true" />
+</LinearLayout>
